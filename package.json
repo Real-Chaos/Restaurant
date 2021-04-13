@@ -1,0 +1,24 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Real-Chaos/Restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Real-Chaos/Restaurant/issues"
+  },
+  "homepage": "https://github.com/Real-Chaos/Restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0",
+    "wepack-cli": "^0.0.1-security"
+  }
+}
