@@ -7,3 +7,11 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
 };
+
+module.exports = {
+    entry: './assets//css/styles.css',
+    output: {
+        filename: 'main.js',
+        path: path.resolve(__dirname, 'dist')
+    },
+};
