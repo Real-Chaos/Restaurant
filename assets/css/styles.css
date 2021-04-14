@@ -129,10 +129,25 @@ nav li {
 
 }
 
+.specialMenuImg {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: auto;
+    transition: 2s;
+}
+
+.specialMenuImg::-webkit-scrollbar {
+    display: none;
+}
+
 .specialMenu img {
     height: 400px;
     width: 300px;
     margin: 10px;
+}
+
+.specialMenuImg:hover {
+    transform: translate(-200px, 0);
 }
 
 .specialMenu p {
