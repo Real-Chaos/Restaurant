@@ -1,2 +1,2 @@
-alert('Hello World!!!')
-alert('Me cool!!!')
+import sayHello from './ok'
+sayHello()
