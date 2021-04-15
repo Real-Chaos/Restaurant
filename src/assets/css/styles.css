@@ -11,7 +11,7 @@ body {
 }
 .nav-hero {
     height: 100vh;
-    background: url('../images/homeHero.jpg');
+    /* background: url('../images/homeHero.jpg'); */
     background-attachment: fixed;
 }
 
@@ -81,7 +81,7 @@ nav li {
     grid-template-columns: 60% 30%;
     padding: 4% 13%;
     /* padding: 0 3%; */
-    background: url(../images/aboutUsBackground.jpg);
+    /* background: url(../images/aboutUsBackground.jpg); */
     background-attachment: fixed;
 }
 
@@ -120,9 +120,9 @@ nav li {
 /* Special Menu -----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .specialMenu {
-    background-image:
+    /* background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
-    url(../images/specialMenu.jpg);
+    url(../images/specialMenu.jpg); */
     background-position: center;
     text-align: center;
     padding: 8%;
