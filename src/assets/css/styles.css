@@ -11,7 +11,7 @@ body {
 }
 .nav-hero {
     height: 100vh;
-    /* background: url('../images/homeHero.jpg'); */
+    background: url('../../../dist/e3da808a30673db4568d.jpg');
     background-attachment: fixed;
 }
 
@@ -80,8 +80,7 @@ nav li {
     display: grid;
     grid-template-columns: 60% 30%;
     padding: 4% 13%;
-    /* padding: 0 3%; */
-    /* background: url(../images/aboutUsBackground.jpg); */
+    background: url('../../../dist/e9f1e530aa123928322e.jpg');
     background-attachment: fixed;
 }
 
@@ -120,9 +119,9 @@ nav li {
 /* Special Menu -----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .specialMenu {
-    /* background-image:
+    background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
-    url(../images/specialMenu.jpg); */
+    url('../../../dist/18b1c92603261acc5ce5.jpg');
     background-position: center;
     text-align: center;
     padding: 8%;
