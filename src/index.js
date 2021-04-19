@@ -11,6 +11,9 @@ import wings from './assets/images/wings.jpg'
 import tender from './assets/images/tenders.jpg'
 import nuggets from './assets/images/nuggets.jpg';
 import newsletter from './assets/images/newsletter.jpg';
-import footer from './assets/images/footerBackground.jpg'
+import menu from './assets/images/menu.jpg'
+import footer from './assets/images/footerBackground.jpg';
+import team from './assets/images/team.jpg';
+import reserve from './assets/images/reservation.jpg';
 
 window.onload(document.body.style.background = 'black')

@@ -84,6 +84,7 @@ nav li {
     font-size: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
+    outline: none;
 }
 .book-table:hover {
     background-color: transparent;
@@ -130,12 +131,77 @@ nav li {
     right: 10%;
 }
 
+/* Menu -----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.menu {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.53)),
+    url('../../../dist/menu.jpg');
+    background-attachment: fixed;
+}
+
+.menu h1, .team h1, .reservation h1 {
+    display: block;
+    color: #e75b1e;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 2% 0 1%;
+}
+
+.menu p {
+    color: white;
+    padding: 0 20% 3%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menuTabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 0 23%;
+}
+.menuTabs div {
+    background: rgba(0, 0, 0, 0.73);
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    padding: 0 0 5%;
+    margin: 0 0 30px;
+}
+
+.menuTabs h6 {
+    color: white;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 15px 0 8px;
+    display: inline;
+    border-bottom: 1px solid white;
+}
+
+.menuTabs hr {
+    color: white;
+    width: 50%;
+    height: 1px;
+}
+
+.menuTabs img {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    margin: 10px 0;
+}
+
 /* Special Menu -----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .specialMenu {
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
     url('../../../dist/18b1c92603261acc5ce5.jpg');
+    background-attachment: fixed;
     background-position: center;
     text-align: center;
     padding: 8%;
@@ -167,7 +233,107 @@ nav li {
     font-size: 20px;
 }
 
-/* ----------------------------------------------------------------Menu -----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------Team -----------------------------------------------------------------*/
+
+.team {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
+    url('../../../dist/team.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team h1 {
+    color: white
+}
+
+.chefs {
+    display: grid;
+    grid-template-columns: repeat(3,  1fr);
+    padding: 2% 20%;
+}
+
+.chefInfo {
+    background: rgba(0, 0, 0, 0.73);
+    margin: auto;
+}
+
+.chefInfo img {
+    width: 100%;
+}
+
+.chefInfo h1 {
+    font-size: 25px;
+}
+
+.chefInfo p {
+    color: white;
+    margin: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+
+
+
+.chefInfo .icon {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.chefInfo .icon .iconE {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 6px;
+}
+
+/* ----------------------------------------------------------------Reservation -----------------------------------------------------------------*/
+
+.reservation {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
+    url('../../../dist/reservation.jpg');
+    background-attachment: fixed;
+}
+
+.reservation h1 {
+    color: white;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 0 30%;
+    margin: 20px;
+}
+
+.inputs input {
+    background: #f5f5f5;
+    border: 2px dotted #ccc;
+    width: 97%;
+    height: 50px;
+    outline: none;
+    margin: 10px;
+}
+.reservation button {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+}
+/* ----------------------------------------------------------------NewsLetter -----------------------------------------------------------------*/
 
 .newsletter {
     background-image:
