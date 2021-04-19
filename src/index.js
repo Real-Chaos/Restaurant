@@ -15,5 +15,6 @@ import menu from './assets/images/menu.jpg'
 import footer from './assets/images/footerBackground.jpg';
 import team from './assets/images/team.jpg';
 import reserve from './assets/images/reservation.jpg';
+import chef1 from './assets/images/chef1.jpg'
 
 window.onload(document.body.style.background = 'black')
