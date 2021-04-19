@@ -5,6 +5,20 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: black;
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
 body {
     background-color: #e6e6e6;
     background-attachment: fixed;
@@ -84,7 +98,7 @@ nav li {
     background-attachment: fixed;
 }
 
-.aboutUsOne h1, .specialMenu h1 {
+.aboutUsOne h1, .specialMenu h1, .newsletter h1 {
     color: #e75b1e;
     font-family: 'Lobster', cursive;
     font-size: 50px;
@@ -125,6 +139,7 @@ nav li {
     background-position: center;
     text-align: center;
     padding: 8%;
+    padding-bottom: 0;
 
 }
 
@@ -145,11 +160,110 @@ nav li {
     margin: 10px;
 }
 
-.specialMenuImg:hover {
-    transform: translate(-200px, 0);
+
+.specialMenu p, .newsletter p {
+    padding: 0 20% 2%;
+    color: white;
+    font-size: 20px;
 }
 
-.specialMenu p {
-    padding: 0 20%;
+/* ----------------------------------------------------------------Menu -----------------------------------------------------------------*/
+
+.newsletter {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
+    url('../../../dist/newsletter.jpg');
+    text-align: center;
+    padding: 5% 0;
+    background-attachment: fixed;
+}
+
+.newsletter p {
+    font-size: 16px;
+}
+
+.newsletter input {
+    width: 35%;
+    height: 50px;   
+    border: 1px dashed black;
+    padding-left: 20px;
+}
+
+/* ----------------------------------------------------------------- Footer ------------------------------------------------------------- */
+footer {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.53)),
+    url('../../../dist/footerBackground.jpg');
+    background-attachment: fixed;
+
+}
+
+footer img {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.footerContent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2% 15% 2%;
+
+}
+
+.footerContent .h1 {
+    color: #e75b1e;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.footerContent p {
     color: white;
+    padding: 4px 15% 0 10px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.footerContent p:hover {
+    color: #e75b1e;
+    transform: translate3d(2px, -3px, -5px);
+}
+
+.footerContent i {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.footerContent .address::after {
+    content: '6 E Esplanade, St Albans VIC 3021, Australia';
+    padding: 10px;
+}
+
+.footerContent .phone::after {
+    content: '+1  (234) 567-8910';
+    padding: 10px;
+}
+
+.footerContent .envelop::after {
+    content: 'food@food.com';
+    padding: 10px;
+}
+
+.openingHours h6 {
+    color: white;
+    padding: 4px 15% 0 10px;
+    font-size: 18px;
+}
+
+.openingHours .timing {
+    color: #666;
+    padding: 4px 15% 0 30px;
+    font-size: 12px;
 }

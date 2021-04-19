@@ -9,4 +9,8 @@ import burger from './assets/images/burger.jpeg';
 import pizza from './assets/images/pizza.jpg';
 import wings from './assets/images/wings.jpg'
 import tender from './assets/images/tenders.jpg'
-import nuggets from './assets/images/nuggets.jpg'
+import nuggets from './assets/images/nuggets.jpg';
+import newsletter from './assets/images/newsletter.jpg';
+import footer from './assets/images/footerBackground.jpg'
+
+window.onload(document.body.style.background = 'black')
