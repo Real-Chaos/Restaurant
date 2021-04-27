@@ -38,6 +38,10 @@ nav {
     padding: 2% 20%;
     font-size: 35px;
     color: white;
+    position: fixed;
+    z-index: 10;
+    background: url('../../../dist/e3da808a30673db4568d.jpg');
+    width: 100%;
 }
 
 nav ul {
@@ -48,6 +52,7 @@ nav ul {
 
 nav li {
     padding: 0 20px;
+    cursor: pointer;
 }
 
 .heroText {
@@ -60,6 +65,11 @@ nav li {
 .heroText h1 {
     font-size: 60px;
     margin: 20px;
+}
+
+.heroText .typer {
+    color: #e75b1e;
+    font-family: 'Pacifico', cursive;
 }
 
 .heroText h4 {
@@ -252,12 +262,13 @@ nav li {
 .chefs {
     display: grid;
     grid-template-columns: repeat(3,  1fr);
-    padding: 2% 20%;
+    padding: 2% 15%;
+    margin: auto;
 }
 
 .chefInfo {
     background: rgba(0, 0, 0, 0.73);
-    margin: auto;
+    margin: 20px;
 }
 
 .chefInfo img {
@@ -306,6 +317,7 @@ nav li {
     linear-gradient(to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
     url('../../../dist/reservation.jpg');
     background-attachment: fixed;
+    padding: 5% 0;
 }
 
 .reservation h1 {
@@ -331,7 +343,7 @@ nav li {
 .reservation button {
     display: block;
     text-align: center;
-    margin: 30px auto;
+    margin: auto;
 }
 /* ----------------------------------------------------------------NewsLetter -----------------------------------------------------------------*/
 
